@@ -13,19 +13,19 @@ setup(
     packages=find_packages(),
     python_requires='>=3.7',
     install_requires=[
-            "opencv-python",
-            "joblib",
-            "scikit-learn",
-            "pyrender",
-            "dill",
-            "rich",
-            "einops",
-            "scenedetect[opencv]",
-            "hydra-core",
-            "timm",
-            "av",
+            "opencv-python==4.8.0.76",
+            "joblib==1.4.2",
+            "scikit-learn==1.2.2",
+            "pyrender==0.1.45",
+            "dill==0.3.8",
+            "rich==13.7.1",
+            "einops==0.8.0",
+            "scenedetect[opencv]==0.6.4",
+            "hydra-core==1.3.2",
+            "timm==1.0.7",
+            "av==12.2.0",
             "smplx==0.1.28",
-            "numpy",
+            "numpy==1.25.2",
             "detectron2 @ git+https://github.com/EdwinKestler/detectron2.git",
             "pytube @ git+https://github.com/EdwinKestler/pytube.git",
             "pyopengl @ git+https://github.com/EdwinKestler/pyopengl.git",
@@ -37,7 +37,7 @@ setup(
             "hmr2 @ git+https://github.com/EdwinKestler/4D-Humans.git",
         ],
         'blur': [
-            'facenet_pytorch'
+            'facenet_pytorch==2.5.2'
         ]
     },
     dependency_links=[]
